@@ -1,0 +1,118 @@
+@media screen and (max-width: 1024px) and (min-width: 740px)  {
+    .navigation{
+        display: none !important;
+    }
+    .nav_bar{
+        width: 10%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .nav_bar>i{
+        font-size: 25px;
+        color: white;
+    }
+    .logo{
+        width: 12% !important;
+    }
+    .social{
+        width: 60% !important;
+    }
+    .destination>h1{
+        font-size: 40px;
+        height: 75px;
+    }
+    /*  */
+    .container_2{
+        height: 480px;
+    }
+    .container_2>.pool{
+        height: 375px;
+    }
+    .container_2>div:nth-of-type(2){
+        height: 375px;
+    }
+    .container_2>div:nth-of-type(2)>div:nth-of-type(1)>h2{
+        font-size: 35px;
+    }
+    .container_2>div:nth-of-type(2)>div:nth-of-type(3)>p{
+        font-size: 14px;
+    }
+    .container>div:nth-of-type(1)>h2{
+        font-size: 35px;
+    }
+    .container>div:nth-of-type(3){
+        width: 76%;
+    }
+    .container>div:nth-of-type(3)>h3{
+        font-size: 16px;
+    }
+    .container>.image{
+        height: auto;
+    }
+    .container>.image>.image_container_1{
+        flex-flow: column nowrap;
+    }
+    .container>.image>.image_container_2{
+        flex-flow: column nowrap;
+    }
+    .container>.image>.image_container_1>div>a>img{
+        height: 400px;
+    }
+    .container>.image>.image_container_2>div>a>img{
+        height: 400px;
+    }
+    .container-4>.travel>div:nth-of-type(4){
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(4)>div:nth-of-type(2)>p{
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(3){
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(5){
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(5)>div:nth-of-type(2)>p{
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(6){
+        width: auto;
+    }
+    .container-4>.travel>div:nth-of-type(6)>div:nth-of-type(2)>p{
+        width: auto;
+    }
+    .container-5{
+        height: auto;
+    }
+    .container-5>.footer{
+        flex-flow: column nowrap;
+        height: auto;
+        padding-top: 15px;
+    }
+    .container-5>.footer>ul{
+        flex-flow: column nowrap;
+        margin-top: 10px;
+    }
+    .container-5>.footer>ul>li{
+        width: 100%;
+        padding: 24px 0px;
+    }
+    .container-5>.footer>div:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container-6{
+        flex-flow: column;
+    }
+    .container-6>div:nth-of-type(1){
+        width: auto;
+        margin: 12px 0px;
+    }
+    .container-6>div:nth-of-type(2){
+        width: auto;
+    }
+}
