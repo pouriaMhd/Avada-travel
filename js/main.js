@@ -8,7 +8,7 @@ $(`.nav_bar>i`).on(`click`, function () {
   $(`.test`).fadeToggle(500);
 });
 
-const swiper = new Swiper(".swiper", {
+const swiper = new swiper(".swiper", {
   speed: 400,
   spaceBetween: 10,
   slidesPerView: 1,
